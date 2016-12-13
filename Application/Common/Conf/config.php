@@ -10,9 +10,8 @@ return array(
 
     /* URL配置 */
     'URL_CASE_INSENSITIVE' => true, //默认false 表示URL区分大小写 true则表示不区分大小写
-	'LOAD_EXT_CONFIG'	=>'db,code',
+	'LOAD_EXT_CONFIG'	=>'db,code,setting',
 
-	'SSS' => '在线状态才能发送消息',
 
 
     'URL_MODEL'            => 3, //URL模式
@@ -27,9 +26,5 @@ return array(
 		//'__TEMPLATE__' => 'Public/Template',
 	),
 
-    /*加密字符串*/
-    "PASSWORD_SUFFIX" => 'zw_info',
-    "APP_ID" => 'wxd892d9377ca9cabc',
-    "APP_SECRET" => '99c8d09540dfc387aa4c599fd92819d5',
 
 );
