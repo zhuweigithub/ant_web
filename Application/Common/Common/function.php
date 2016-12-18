@@ -32,7 +32,7 @@ function request($url, $data)
 function buildUrl($url)
 {
 	$host = C("ANT_API");
-	return $host . $url;
+	return $host . 's=/'. $url;
 }
 
 
